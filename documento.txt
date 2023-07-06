@@ -1,1 +1,15 @@
-Hola pepe V3A
+GIT Control de versiones
+------------------------
+
+Desde la consola Git Bash:
+Definimos las variables globales
+   git config --global user.name "javierprietoleon"
+   git config --global user.email "javierprietoleon@gmail.com"
+Creamos un directorio para un proyecto
+   mkdir "Proyecto_Git"
+Dentro del directorio inicializamos git (crea un directorio oculto)
+   git init
+Comprobamos estado (nos dirá si están o no añadidos los diferentes fuentes al control de versiones)
+   git status
+Añadimos los fuentes que queramos al control
+   git add documento.txt
