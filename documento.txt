@@ -13,3 +13,22 @@ Comprobamos estado (nos dirá si están o no añadidos los diferentes fuentes al
    git status
 Añadimos los fuentes que queramos al control
    git add documento.txt
+Guardar la primera versión
+   git commit -m "Este es mi primer commit"
+Revisamos el estado (ahora nos dice cuando le hicimos esta version)
+   git log
+Añadimos los fuentes que queramos al control
+   git add documento.txt
+Guardar la segunda versión
+   git commit -m "Este es mi segundo commit"
+Revisamos el estado (ahora nos dice cuando le hicimos las versiones)
+   git log
+   git log --graph --pretty=oneline 
+Limpiar pantalla
+   clear
+Crear alias para configurar un comando
+   git config --global alias.tree "git log --graph --pretty=oneline"
+Podemos ignorar un fichero para que no se vea en el status
+   touch .gitignore   (se crea una vez)
+En el fichero gitignore teclear  
+   **/novale.txt
